@@ -1,0 +1,1 @@
+<html><body><script>let a,b,c=()=>{do{a=Math.floor(Math.random()*6)}while(a===b);b=a;return Array.from(new Set(Array.from(new Uint8Array(6)).map((_,e)=>((e+1)%8).toString(2).padStart(3,'0').replace(/1/g,'f'))))[b]};setInterval(()=>document.body.style.background="#"+c(),2);</script></body></html>
